@@ -58,7 +58,10 @@ public class MiniGUI {
         canvas.add(canvas1, BorderLayout.CENTER);
         canvas1.add(write);
 
-        
+        // Ex 02.02
+        final JTextField label = new JTextField();
+        canvas.add(label, BorderLayout.NORTH);
+
     }
 
     private void display() {
